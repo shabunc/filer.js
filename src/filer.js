@@ -304,8 +304,7 @@ var Filer = new function() {
 
     if (typeof arguments[2] == "string") {
       destStr = arguments[2];
-    } else
-    if (typeof arguments[2] == "function") {
+    } else if (typeof arguments[2] == "function") {
       errorCallback = arguments[2];
     }
 
